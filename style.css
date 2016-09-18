@@ -1,0 +1,338 @@
+body {
+	font-family: 'Waiting for the sunrise';
+	line-height: 2;
+	color: #777;
+	font-size: 20px;
+}
+
+.align-right {
+	text-align: right;
+	    margin-top: 45px;
+}
+
+.align-center {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.underline a {
+	text-decoration: underline;
+}
+
+a {
+	color: #FF5FC0;
+}
+
+a:hover {
+	color: rgba(235,171,235,1);
+}
+
+h1 {
+	font-weight: bold;
+}
+
+/*--Navigation--*/
+
+.navbar-brand img {
+	max-width: 300px;
+	width: 54%;
+    margin-top: -53px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    height: 63px;
+    opacity: 0.8;
+    box-shadow: 3px 2px 9px rgba(0, 0, 0, .3);
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding-top: 22px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a img {
+	width: 84%;
+}
+
+.navbar-right {
+	margin-right: 25px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+
+/*--Banners--*/
+
+.banner {
+	position: relative;
+	background-image: url(img/332H.jpg);
+	background-size: cover;
+	overflow: hidden;
+	height: 800px;
+	width: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-top: 63px;
+	box-shadow: inset 0px 0px 15px rgba(0,0,0,0.2);
+	vertical-align: middle;
+}
+
+.banner h1 {
+	margin-top: 27px;
+    margin-left: 30px;
+	font-size: 2.15em;
+	background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	opacity: 0.8;
+	text-shadow: 3px 2px -9px rgba(0, 0, 0, .3);
+	letter-spacing: .5em;
+	line-height: 0.8;
+	text-shadow: 4px 2px 5px rgba(150, 150, 150, 1);
+}
+
+.collage {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/candy13.jpg);
+	float: left;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 100px;
+	box-shadow: inset 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.banner2 {
+	position: relative;
+	background-image: url(img/candy20.jpg);
+	background-size: cover;
+	overflow: hidden;
+	height: 400px;
+	width: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	box-shadow: inset 0px 0px 15px rgba(0,0,0,0.2);
+	margin-bottom: 100px;
+}
+
+.lollipop {
+	margin-top: 85px;
+	animation: roll 11s linear 0s infinite normal;
+}
+
+.candy {
+	width: 50px;
+	height: 50px;
+	background-image: url(img/lollipop.png);
+	background-size: cover;
+	animation: candy 2.1s 0s linear infinite;
+}
+
+.lollipop2 {
+	margin-top: 70px;
+	animation: roll 11s linear 0s infinite reverse;
+}
+
+.candy2 {
+	width: 50px;
+	height: 50px;
+	background-image: url(img/lollipop2.png);
+	background-size: cover;
+	animation: candyTwo 2.1s 0s linear infinite;
+}
+
+/*--Header--*/
+
+.double {
+	margin-top: 125px;
+	padding: 30px;
+}
+.double img {
+	width: 93%;
+    margin-left: 40px;
+}
+
+.double h1 {
+	margin-top: 0;
+}
+
+/*--Products--*/
+
+.col-md-4 {
+	padding: 40px 60px;
+
+}
+
+.products h3 {
+	font-weight: bold;
+	padding-left: 13px;
+}
+.products img {
+	width: 100%;
+	height: 270px;
+
+}
+
+.prices {
+	position: absolute;
+    right: 70px;
+    font-weight: normal;
+}
+
+.btn-default {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #606164;
+}
+
+.btn-default:hover {
+    color: #fff;
+    border-color: #ccc;
+    font-size: 1.1em;
+    box-shadow: 3px 2px -9px rgba(0, 0, 0, .3);
+	background: linear-gradient(45deg, rgba(235,171,235,1) 0%, rgba(255,124,216,1) 100%);
+}
+
+/*--Carousel--*/
+
+.carousel {
+    height: 450px;
+    width: 1000px;
+    position: relative;
+    margin: 30px auto;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    max-width: 100%;
+    height: 450px;
+    margin-left: 150px;
+    float: left;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+}
+
+.item {
+	text-align: center;
+}
+
+.item h3 {
+	margin-top: 30px;
+}
+
+.quote { 
+	position: absolute;
+	right: 150px;
+    width: 300px;
+    top: 200px;
+}
+
+/*--Footer--*/
+
+.footer {
+	box-shadow: 3px 2px -9px rgba(0, 0, 0, .3);
+	background: rgba(235,171,235,1);
+	background: -moz-linear-gradient(45deg, rgba(235,171,235,1) 0%, rgba(255,124,216,1) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(235,171,235,1)), color-stop(100%, rgba(255,124,216,1)));
+	background: -webkit-linear-gradient(45deg, rgba(235,171,235,1) 0%, rgba(255,124,216,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(235,171,235,1) 0%, rgba(255,124,216,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(235,171,235,1) 0%, rgba(255,124,216,1) 100%);
+	background: linear-gradient(45deg, rgba(235,171,235,1) 0%, rgba(255,124,216,1) 100%);
+}
+
+.footer {
+	margin-top: 30px;
+	height: 132px;
+    overflow: hidden;
+}
+
+.footer p { 
+    color:white;
+    margin-top: -65px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer-img {
+	text-align: center;
+	margin-top: -41px;
+}
+
+.footer img {
+	width: 220px;
+	margin: auto;
+}
+
+/*--Key Frames--*/
+
+@keyframes roll {
+	0% { margin-left: -5%; }
+	100% { margin-left: 105%; }
+}
+
+@keyframes rollTwo {
+	0% { margin-left: -105%; }
+	100% { margin-left: 5%; }
+}
+
+@keyframes candy {
+	0% { -webkit-transform: rotate(1deg); }
+	100% { transform: rotate(360deg); }
+}
+
+@keyframes candyTwo {
+	0% { transform: rotate(360deg); }
+	100% { -webkit-transform: rotate(1deg); }
+}
+
+/*--Media Queries--*/
+
+@media (max-width: 992px) { 
+	.footer {
+		margin-top: 0;
+	}
+	.banner2 {
+		margin-bottom: 0px;
+	}
+	.double img {
+		margin: 15px auto;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px){ 
+	.double img {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-default .navbar-nav>li>a img {
+    	width: auto; 
+	}
+	.navbar-default .navbar-nav>li>a {
+		background-color: white;
+		width: 150px;
+    	padding-top: 10px;
+    	text-align: center;
+    	margin-left: 70%;
+	}
+	.navbar-default .navbar-nav>li>a:hover {
+		background-color: white;
+	}
+}
+
+
+
